@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>BookingPage</title>
+   <link rel="stylesheet" href="/booking_form/style.css">
+</head>
+<body>
+   <div class="mainDiv">
+      <div class="nav">
+         <span class="textBook">
+            <h2>Booking</h2>
+            <span class="menu">
+               <button><img src="/assets/menu.png" alt=""></button>               
+            </span>
+         </span>
+         <div class="nav_buttonz">
+            <input type="button" value="Home" onclick="goto.homePage()">
+            <input type="button" value="bulletin" onclick="goto.bulletinPage()">
+            <input type="button" value="booking" onclick="goto.bookingPage()"> 
+            <input type="button" value="history" onclick="goto.historyPage()">            
+         </div>
+         <div class="contentDiv">
+            <span class="customerInfo">
+               <span>
+                  <input type="text" placeholder="Lastname">             
+                  <span class="labelLast">lastname</span>
+               </span>
+               <span>
+                  <input type="text" placeholder="Firstname">
+                  <span class="labelFirst">firstname</span>
+               </span>
+               
+            </span>
+         </div>
+      </div>
+   </div>
+   <script src="/homepage/main.js"></script>
+</body>
+</html>

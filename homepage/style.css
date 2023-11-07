@@ -1,0 +1,160 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+:root{
+   --green: #36CA23E0;
+}
+body{
+   overflow-y: auto;
+   min-height: 100%;
+}
+.mainDiv{
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+   min-height: 100vh;
+}
+.nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 150px;
+   width: 100vw;
+   background: #CAFFC3B0;
+   box-shadow: 2px 2px 2px 0.1px #609A5980;
+   
+}
+.nav .logo{
+   position: relative;
+   background: var(--green);
+   width: 90vw;
+   height: 37px;
+   padding: 5px;
+   display: flex;
+   top: 10px;
+   left: 3%;
+   border-radius: 50px;
+}
+.logo a{
+   position: absolute;
+
+   height: 35px;
+   width: 35px;
+   outline: none;
+   color: #000000B0;
+   border-radius: 30px;
+   display: flex;
+ 
+}
+.logo a img{
+   position: relative;
+   width: 35px;
+   height: 35px;
+   border: 1px solid;
+   background-size: cover;
+   border-radius: 30px;
+   
+}
+.nav .logo h3{
+   position: relative;
+   left: 45px;
+   top: 5px;
+   color: #050505;
+   font-family: cursive;
+   font-size: 30px;
+}
+.logo .menu{
+   position: absolute;
+   width: 45px;
+   height: 45px;
+   right: 10px;
+   border: none;
+   border-radius: 30px;
+}
+.menu button{
+   position: relative;
+   width: 34px;
+   height: 34px;
+   background: transparent;
+   border: none;
+   outline: none;
+   top: 5px;
+   right: 7px;
+}
+
+.menu button img{
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   top: 0;
+}
+.nav_buttonz{
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   top: 15px;
+   width: 95vw;
+   background: #9CE99280;
+   margin: 5px;
+   padding: 5px;
+}
+.nav_buttonz input{
+   flex: 1 1 10%;
+   min-height: 35px;
+   border: 0.6px solid #050505B5;
+   background: transparent;
+}
+.contentDiv{
+   position: relative;
+   top: 160px;
+   /*border: 1px solid;*/
+   width: 100vw;
+   height: 50%;
+   max-height: 100%;
+   overflow-x: hidden;
+   background: #D3D3D33D;
+   box-shadow: 1px 1px 1px 0.1px #54545569,
+            -1px -1px 1px 0.1px #54545569;
+}
+.contentDiv span{
+   width: 60px;
+   height: 100px;
+   position: relative;
+   top: 5vh;
+   left: 15vw;
+
+}
+.contentDiv span button{
+   position: relative;
+   display: grid;
+   margin: 20px;
+   padding: 15px;
+   padding-right: 15px;
+   border-radius: 30px;
+   border: none;
+   outline: none;
+   filter: drop-shadow(0 0.5px 1px)
+}
+.footer{
+   position: absolute;
+   border: none;
+   width: 100vw;
+   height: 27.5vh;
+   bottom: 0;
+   background: #353535
+}
+.footer span ul{
+   position: relative;
+   width: 150px;
+   height: 120px;
+   left: 10vw;
+   top: 5vh;
+}
+.footer span ul li a{
+   font-size: 70%;
+   color: #F0F0F0;
+}
+.footer span ul li{
+   margin: 9px;
+}
